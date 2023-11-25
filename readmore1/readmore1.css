@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.desc:hover {
+    transition: ease 0.4s;
+    transform: scale(1.1);
+}
+
+.menu {
+    background-color: #f0cf56;
+    height: 80px;
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius:0px;
+}
+
+.danhmuc{
+    float: right;
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: auto;
+    max-height: 80px;
+    list-style: none;
+    display: flex;
+}
+.danhmuc>li{
+  
+     padding: 15px;
+     align-items: center;
+     font-size: 25px;
+}
+.danhmuc>li>a{
+  color: black;
+}
+
+.logo{
+    font-size: 35px;
+    font-family: Brush Script MT;
+    text-transform: uppercase;
+}
+.logoa{
+    margin-top: -25px;
+    padding-left: 20px;
+    font-family:Lucida Bright;
+}
+
+.foot {
+    margin-top: 50px;
+    background-color: #f0cf56;
+    height: 400px;
+}
+
+.footchu{
+    margin-top: -20px;
+    text-align: center;
+ }

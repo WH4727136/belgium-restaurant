@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.menu {
+    background-color: #f0cf56;
+    height: 80px;
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius:0px;
+}
+
+.danhmuc{
+    float: right;
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: auto;
+    max-height: 80px;
+    list-style: none;
+    display: flex;
+}
+.danhmuc>li{
+  
+     padding: 15px;
+     align-items: center;
+     font-size: 25px;
+}
+.danhmuc>li>a{
+  color: black;
+}
+
+.logo{
+    font-size: 35px;
+    font-family: Brush Script MT;
+    text-transform: uppercase;
+}
+.logoa{
+    margin-top: -25px;
+    padding-left: 20px;
+    font-family:Lucida Bright;
+}
+
+.pic1 {
+    position: absolute;
+    z-index: 0;
+    border-radius: 10%;
+}
+.borderbox1 {
+    box-sizing: border-box;
+    color: #000;
+    border: 10px solid #ebffdb;
+    opacity: 70%;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    top: 35px;
+    left: 10px;
+    border-radius: 15%;
+}
+
+.pic2 {
+    position: absolute;
+    z-index: 0;
+    border: groove rgb(255, 220, 225) 10px;
+}
+
+.box1 {
+    position: relative;
+    z-index: 1;
+    opacity: 80%;
+}
+
+.box2 {
+    position: absolute;
+    width: 20px;
+    height: 500px;
+    float: right;
+    right: 40px;
+    z-index: 1;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 10px 5px rgb(1, 58, 8);
+}
+
+.pic3 {
+    border: rgb(255, 199, 199) outset 5px;
+    border-radius: 15px 50px 30px 5px;
+    margin-top: 60px;
+}
+.box3 {
+    box-shadow: -10px -5px inset rgb(75, 0, 0);
+    border-radius: 15px 50px;
+}
+.box4 {
+    background-color: rgb(255, 173, 244);
+    box-shadow: 10px 5px rgb(107, 0, 62);
+    position: relative;
+}
+
+.box4 li {
+    list-style: circle;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+.borderbox2 {
+    box-sizing: border-box;
+    height: 400px;
+    width: 15px;
+    position: absolute;
+    background-color: rgb(255, 173, 244);
+    left: 5px;
+    top: 60px;
+    z-index: 1;
+    border-left: dotted 15px #df3f3f;
+}
+
+.box4:hover {
+    transform: scale(1.1);
+    transition: ease 0.3s;
+}
+
+.up-wrap {
+	z-index: 5;
+}
+
+.up-to-page {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border: 2px solid gray;
+	opacity: 0.5;
+	right: 5px;
+	bottom: 100px;
+	border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.up-btn {
+	line-height: 50px;
+	padding-left: 15px;
+}
+
+.up-to-page:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+	transition: 0.4s;
+	color: black;
+}
+
+.a-up {
+	text-decoration: none;
+}
+
+.foot {
+    margin-top: 50px;
+    background-color: #f0cf56;
+    height: 400px;
+}
+
+.footchu{
+    margin-top: -20px;
+    text-align: center;
+ }
+
+ .mauden
+{
+   z-index: 2;
+   width: 100%;
+   position: fixed;
+   top :0;
+}

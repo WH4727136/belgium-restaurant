@@ -1,0 +1,145 @@
+*
+{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+font-family: Varela Round;
+margin-top: 8px;
+margin-left: auto;
+}
+.menu
+{
+background-color: #f0cf56;
+height: 80px;
+position: relative;
+padding: 0.5rem 1rem;
+border-radius:0px;
+}
+.anhnen{
+   margin-top: 20px;
+   width: 1255px;
+   height: 480px;
+}
+.logo{
+font-size: 35px;
+font-family: Brush Script MT;
+text-transform: uppercase;
+ }
+ .logoa{
+margin-top: -25px;
+padding-left: 20px;
+font-family:Lucida Bright;
+ }
+.danhmuc{
+  float: right;
+display: block;
+height: 40px;
+margin: 0 auto;
+object-fit: cover;
+width: auto;
+max-height: 80px;
+list-style: none;
+display: flex;
+}
+.danhmuc>li{
+
+   padding: 15px;
+   align-items: center;
+   font-size: 25px;
+}
+.danhmuc>li>a{
+color: black;
+}
+.tieudetrang{
+
+   margin-top: 20px;
+}
+.noidungtrang{
+
+   padding-top:30px;
+   border-top: solid 1px black;
+   margin-top: 30px;
+}
+.anh{
+   width: 310px;
+   height: 190px;
+}
+.ND{
+   margin-top: 10px;
+    font-weight: 600;
+   text-decoration: underline;
+   text-align: center;
+   margin-right: 60px;
+}
+.foot
+{
+margin-top:50px ;
+background-color: #f0cf56;
+height: 400px;
+position: relative;
+}
+.mauden
+{
+   z-index: 2;
+   width: 100%;
+   position: fixed;
+   top :0;
+}
+.footchu{
+
+   margin-top: -20px;
+   text-align: center;
+}
+.icon{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.icon>a{
+   margin-right: 10px;
+}
+\\\\\\\\\\\\\\\\\\\\\\\CONTACT/////////////////////////
+.chu{
+
+}
+.chu>img{
+margin-top: 30px;
+}
+.a{
+   margin-right: 5px;
+   font-weight: 600;
+}
+.b{
+   float: left;
+   margin-right: 5px;
+}
+.c{
+   margin-top: -16px;
+}
+.maunhap>form>p{
+  opacity: 0.5;
+}
+.maunhap>form>input{
+   width: 350px;
+}
+.btn{
+   margin-top: 30px;
+}
+.luu{
+margin-top: 30px ;
+   display: flex;
+}
+.col-sm-12>h1{
+   text-align: center;
+   width: 1200px;
+}
+.col-sm-12>h2{
+   text-align: center;
+   width: 1200px;
+}
+.col-sm-12>a>button{
+
+ align-items: center;
+ margin: auto;
+}
